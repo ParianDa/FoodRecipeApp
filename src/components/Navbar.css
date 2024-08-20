@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(233, 129, 37);
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.nav-elements {
+    list-style-type: none;
+}
+
+.nav-elements > a {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+.nav-elements > a:hover {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
