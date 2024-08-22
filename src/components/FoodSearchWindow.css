@@ -1,0 +1,15 @@
+.food-recipe-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: red;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.food-recipe-container > li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
